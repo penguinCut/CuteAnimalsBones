@@ -1,0 +1,407 @@
+
+/*Downloaded from https://www.codeseek.co/erikrahm/x-ray-effect-with-a-css-mask-ywrmH */
+#flesh, #flesh2 {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background: url("/bones/bonesImg/penguin.png") no-repeat;
+  background-size: 100% auto;
+}
+#flesh2 {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background: url("/bones/bonesImg/daram.png") no-repeat;
+  background-size: 100% auto;
+}
+#flesh3 {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background: url("/bones/bonesImg/rabbit.png") no-repeat;
+  background-size: 100% auto;
+}
+#bone {
+  width: 100%;
+  margin: 0;
+  -webkit-mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+          mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 150px;
+          mask-size: 150px;
+  cursor: none;
+}
+
+#bone2 {
+  width: 100%;
+  margin: 0;
+  -webkit-mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+          mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 150px;
+          mask-size: 150px;
+  cursor: none;
+}
+#bone3 {
+  width: 100%;
+  margin: 0;
+  -webkit-mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+          mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/40713/xray-machine.png");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 150px;
+          mask-size: 150px;
+  cursor: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.hohoho{
+  margin-left: 29%;
+  color: #ffffff;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+.hoTitle1{
+  margin-left: 30%;
+
+}
+.hoTitle2{
+  margin-left: 20%;
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.hoTitle2 {
+	-webkit-animation-name: spaceboots;
+  animation-name: spaceboots;
+	-webkit-animation-duration: 2s;
+  animation-duration: 2s;
+	-webkit-transform-origin:25% 25%;
+  transform-origin:25% 25%;
+	-webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.fullpage__product-title:hover,
+.fullpage__product-title:focus,
+.field__item:hover,
+.field__item:focus,
+.is-wordized:hover,
+.is-wordized:focus{
+	-webkit-animation-name: spaceboots;
+  animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+	-webkit-transform-origin:25% 25%;
+  transform-origin:25% 25%;
+	-webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+/* /////////////////////// */
+
+.quizdidi{
+  align-content: center;
+  position: relative;
+  height: 100%;
+  max-width: 70vw;
+  margin: auto;
+}
+.puzzle-container {
+  height: 100%;
+  object-fit: cover;
+  width: 200%;
+}
+
+.puzzleboard {
+  background-color: #4e7ca000;
+  min-height: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.row {
+  height: 50%;
+  position: relative;
+  width: 100%;
+}
+
+/* Puzzleboard drop zone shapes */
+.row > img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.row:last-of-type {
+  padding-top: 1%;
+}
+
+.row div {
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 20%;
+  z-index: 100;
+}
+
+.row:first-of-type div img {
+  margin-top: 14.8%;
+}
+
+.row:last-of-type div img {
+  margin-top: 7.8%;
+}
+
+.row div img {
+  width: 100%;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/* Merry */
+/* M */
+.row:first-of-type div:first-of-type {
+  margin-left: 13.8%;
+}
+/* E */
+.row:first-of-type div:nth-child(3) {
+  margin-left: 27.6%;
+}
+/* R */
+.row:first-of-type div:nth-child(4) {
+  margin-left: 39.7%;
+}
+/* R */
+.row:first-of-type div:nth-child(5) {
+  margin-left: 53.9%;
+}
+/* Y */
+.row:first-of-type div:nth-child(6) {
+  margin-left: 66.77%;
+}
+
+
+
+.tray {
+  background-color: #707070;
+  border: 0.2em solid #fefff2;
+  border-radius: 30px;
+  bottom: 0;
+  height: 50%;
+  padding: 4em;
+  position: relative;
+  width: 100%;
+}
+
+/* Individual puzzle pieces with drop shadow and hover effect*/
+.tray > img {
+  position: absolute;
+  transition: all .5s;
+  width: 14%;
+
+  -webkit-filter: drop-shadow(.1em .1em 0 #4a4848);
+  filter: drop-shadow(.1em .1em 0 #4a4848);
+}
+
+.tray > img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+
+  -webkit-filter: drop-shadow(0 0 .6em #faffa6);
+  filter: drop-shadow(0 0 .6em #faffa6);
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  height: 3.5em;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: -3em;
+  transition: transform .3s;
+  width: 7em;
+  z-index: 100;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
+}
+
+button img {
+  width: 5em;
+}
+
+button:nth-child(2) {
+  display: none;
+}
+
+.xmas {
+  -webkit-animation-delay: 0s, 11s;
+  -webkit-animation-duration: 3s, 1s;
+  -webkit-animation-iteration-count: 3, 1;
+  -webkit-animation-name: spin, jingle;
+  animation-delay: 0s, 11s;
+  animation-duration: 3s, 1s;
+  animation-iteration-count: 3, 1;
+  animation-name: spin, jingle;
+}
+
+img[data-twirl] {
+  -webkit-animation-delay: 0s, 11s;
+  -webkit-animation-duration: .7s, 1s;
+  -webkit-animation-iteration-count: 1, 1;
+  -webkit-animation-name: twirl, jingle;
+  animation-delay: 0s, 11s;
+  animation-duration: .7s, 1s;
+  animation-iteration-count: 1, 1;
+  animation-name: twirl, jingle;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate3d(1,2,1,0deg);
+  }
+  100% {
+    transform: rotate3d(1,2,1,360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate3d(1,2,1,0deg);
+  }
+  100% {
+    transform: rotate3d(1,2,1,360deg);
+  }
+}
+
+@-webkit-keyframes twirl {
+  0% {
+    transform: rotate3d(0,1,0,0deg);
+  }
+  100% {
+    transform: rotate3d(0,1,0,360deg);
+  }
+}
+
+@keyframes twirl {
+  0% {
+    transform: rotate3d(0,1,0,0deg);
+  }
+  100% {
+    transform: rotate3d(0,1,0,360deg);
+  }
+}
+
+@-webkit-keyframes jingle {
+  0% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  50% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes jingle {
+  0% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  50% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+
+@media (min-width: 2000px) {
+  button {
+    top: -4em;
+    width: 9em;
+  }
+
+  button img {
+    width: 7.5em;
+  }
+}
+
+@media (max-width: 1024px) {
+  button {
+    height: 3em;
+    top: -2em;
+    width: 5em;
+  }
+
+  button:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  button img {
+    width: 3.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .puzzleboard, .tray {
+    height: 50vh;
+    width: 768px;
+  }
+}
